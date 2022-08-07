@@ -11,11 +11,15 @@ public class HolaMundo {
         int year = today.getYear(); */
 
         MainResta nuevaResta = new MainResta(2,1);
+        DevSuma nuevaSuma = new DevSuma(1,2);
+
+
 
         String dateString = today.format(formatter);
 
 
         System.out.println("Holaa Mundo, hoy es " + dateString);
+        System.out.println("La suma de hoy es: " + nuevaSuma.sumar() );
         System.out.println("Estoy editando desde Github en la web");
         System.out.println("Hola esta es la resta de hoy: " + nuevaResta.restar());
     }
