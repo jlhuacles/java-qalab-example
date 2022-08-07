@@ -14,6 +14,6 @@ public class HolaMundo {
         String dateString = today.format(formatter);
 
 
-        System.out.println("Hola Mundo, hoy es " + dateString);
+        System.out.println("Holaa Mundo, hoy es " + dateString);
     }
 }
