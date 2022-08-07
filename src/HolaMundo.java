@@ -10,10 +10,12 @@ public class HolaMundo {
         int month = today.getMonthValue();
         int year = today.getYear(); */
 
+        MainResta nuevaResta = new MainResta(2,1);
 
         String dateString = today.format(formatter);
 
 
         System.out.println("Holaa Mundo, hoy es " + dateString);
+        System.out.println("Hola esta es la resta de hoy: " + nuevaResta.restar());
     }
 }
